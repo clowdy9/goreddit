@@ -64,7 +64,6 @@ const (
 func New(opts RedditOpts) *Reddit {
 	client := resty.New()
 	client.SetRetryCount(1)
-	//client.SetTimeout(time.Millisecond * 500)
 	client.SetRetryWaitTime(time.Second * 2)
 	if opts.Proxy != "" {
 		client.SetProxy(opts.Proxy)

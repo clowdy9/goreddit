@@ -10,6 +10,5 @@ const (
 
 func (r Reddit) Subreddit(name, afterID string) (*RedditJSON, error) {
 	url := fmt.Sprintf(subredditURL, name)
-
 	return r.queryJSON(url, afterID)
 }

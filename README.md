@@ -1,4 +1,4 @@
-# Reddit Go Project
+# GoReddit
 
 This library uses Reddit’s JSON API to fetch media posts from a specified subreddit or user.
 
@@ -87,5 +87,3 @@ Fetch info for a specific post:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
